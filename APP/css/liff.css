@@ -1,0 +1,104 @@
+html {
+    font-size: 16px;
+}
+body {
+    display: none;/*ログイン前none　ログイン後block*/
+    background-color: white;
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 2% 0;
+    margin-bottom: 5%;
+    width: 100%;
+}
+#profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 25px auto 25px;
+    padding: 15px;
+
+    background: -moz-linear-gradient(right, #f5f5f5, #FFF);
+    background: -webkit-linear-gradient(right, #f5f5f5, #FFF);
+    background: linear-gradient(to left, #f5f5f5, #FFF);
+    border: 1px #CCC solid;
+    border-right: 10px #00b008 solid;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+}
+.profile-info p{
+    padding: 5px 0;
+    color: #333;
+    word-wrap: break-word;
+    width: 100%;
+    text-align: center;
+}
+#displayNameField{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#statusMessageField{
+    margin-bottom: 1em;
+}
+.profile-picture img {
+    width: 125px;
+    height: auto;
+    margin: 0 0 2em;
+}
+.font-small {
+    font-size: 0.8em;
+}
+
+.note {
+    margin: 20px auto;
+    text-align: center;
+    width: 320px;
+}
+.note p {
+    margin-top: 10px;
+    line-height: 1.2em;
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+/* 600px以上の端末 */
+@media (min-width: 600px) {
+    body {
+        background: unset;
+    }
+    #profileInfo {
+        border-right: 10px #00b008 solid;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 500px;
+    }
+    .profile-info {
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .profile-info p{
+        text-align: left;
+    }
+    h1 {
+        text-align: left;
+    }
+    .profile-picture img {
+        margin: 0;
+    }
+    .note {
+        width: 500px;
+    }
+}
