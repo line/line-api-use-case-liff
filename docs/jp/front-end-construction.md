@@ -14,4 +14,4 @@ APP -> js -> index.jsにて、環境ごとに変更が必要な値があるた�
 
 [次の頁へ](validation.md)
 
-[目次へ戻る](../README.md)
+[目次へ戻る](../../README.md)

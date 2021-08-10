@@ -4,8 +4,8 @@
 LIFFでは、ユーザーを区別するためのユーザーID、ユーザーが登録している任意の表示名などを取得できます。  
 
 なお、このページで紹介しているソースコードの環境はAWSを利用しています。  
-※ ドキュメントなどの文言は日本語対応となっています。  
-※ This document is written in only Japanese for now. We’ll translate it later as soon as possible.
+
+※ [The English version document is here.](./docs/en/README_en.md)
 
 # Libraries
 ## Python
@@ -42,11 +42,11 @@ Mac: https://www.python.jp/install/macos/index.html
 こちらの手順では、アプリケーション開発に必要な「LINEチャネル作成、バックエンド・フロントエンドの構築、動作確認」について説明します。
 以下リンク先の手順を参考にし、本番環境（AWS）とローカル環境の構築を行ってください。
 
-### [LINE チャネルの作成](./docs/liff-channel-create.md)
-### [バックエンドの構築](./docs/back-end-construction.md)
-### [フロントエンド環境構築](./docs/front-end-construction.md)
+### [LINE チャネルの作成](./docs/jp/liff-channel-create.md)
+### [バックエンドの構築](./docs/jp/back-end-construction.md)
+### [フロントエンド環境構築](./docs/jp/front-end-construction.md)
 ***
-### [動作確認](./docs/validation.md)
+### [動作確認](./docs/jp/validation.md)
 ***
 # License
 BusinessCardの全てのファイルは、条件なしで自由にご利用いただけます。
